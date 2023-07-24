@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/webappdemocert2023",
+      "type": "appInsights.azure",
+      "connectionId": "APPINSIGHTS_CONNECTIONSTRING",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/azurecertificatedemo",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

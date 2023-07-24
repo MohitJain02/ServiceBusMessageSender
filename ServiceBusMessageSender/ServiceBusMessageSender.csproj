@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0b99a18c-7b69-45ff-b1b1-552b81c5c013</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.5.1" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+
+</Project>
